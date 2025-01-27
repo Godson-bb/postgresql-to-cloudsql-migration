@@ -28,3 +28,11 @@
 wal_level = logical
 max_replication_slots = 10
 max_wal_senders = 10
+
+###GCP Setup
+
+    Project: masteryhive-cloud-migration
+
+    APIs Enabled: DMS, Cloud SQL, Compute Engine, Cloud Storage
+
+    IAM Roles: datamigration.admin, cloudsql.editor, storage.admin
